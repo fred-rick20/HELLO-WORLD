@@ -1,0 +1,41 @@
+.movement{
+    position: relative;
+    left: 300px;
+    bottom:70px;
+
+}
+#logo{
+    position: relative;
+    right: 100px;
+    left: 60px;
+}
+#seeking{
+    position: relative;
+    left: 380px;
+    bottom: 90px;
+    color: red;
+}
+#result{
+    position: relative;
+    left: 200px;
+    bottom: -15px;
+    
+
+}
+ table,th,td {
+    border: 1px solid;
+    width: 800px;
+    position: relative;
+    border-collapse: collapse;
+    text-align: center;
+
+ }
+#details{
+    border-collapse: collapse;
+
+}
+#student{
+    position: relative;
+    left: 300px;
+}
+

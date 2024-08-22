@@ -1,0 +1,97 @@
+body{
+    background-color: bisque;
+    background-image:url(/assets/project\ background.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+header>img{
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header>u{
+    margin: 0;
+    font-size: 2.5em;
+}
+header>p{
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0 0, 0, 0.1);
+}
+h2{
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+.About,.skills,.Projects,.Contact{
+     margin-bottom: 40px;
+}
+.skills>ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Projects>ul{
+    list-style-type: none;
+    padding: 0;
+}
+.skills>ul>li{
+    padding: 5px 0;
+    font-size: 1.1em ;
+}
+.Projects>ul>li{
+    padding: 5px 0;
+    font-size: 1.1em ;
+}
+.Contact>form{
+    display: flex;
+    flex-direction: column;
+}
+.Contact>form>label{
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+.Contact> form>input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+}
+.Contact> form> textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+}
+.Contact> form>textarea{
+      resize: vertical;
+      height: 100px;
+}
+.Contact>form>button{
+    padding: 10px 20px;
+    font-size: 1.23m ;
+    color: #fff;
+    cursor: pointer;
+    background-color: #333;
+    border: none;
+}

@@ -1,0 +1,30 @@
+#logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+
+}
+#up{
+    background-color: white;
+    color: #730aa7;
+}
+#down{
+    background-color: purple;
+    color: white;
+}
+#service{
+    color: red;
+}
+#weeks{
+    color: yellow;
+}
+.movement{
+    
+    position: relative;
+    bottom: 140px;
+    left: 157px;
+}
+.down_movement{
+    position: relative;
+    left: 230px;
+}
